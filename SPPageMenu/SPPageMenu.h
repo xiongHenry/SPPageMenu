@@ -207,6 +207,8 @@ typedef NS_ENUM(NSInteger, SPItemImagePosition) {
 @property (nonatomic, assign) SPItemImagePosition imagePosition;
 // 图片与标题之间的间距,默认0.0
 @property (nonatomic, assign) CGFloat imageTitleSpace;
+// 背景颜色
+@property (nonatomic, strong) UIColor *backgroundColor;
 
 @end
 

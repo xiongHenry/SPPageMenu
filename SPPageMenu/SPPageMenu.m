@@ -859,6 +859,7 @@
         [self.functionButton setImage:item.image forState:state];
         self.functionButton.imagePosition = item.imagePosition;
         self.functionButton.imageTitleSpace = item.imageTitleSpace;
+        self.functionButton.backgroundColor = item.backgroundColor;
     }
 }
 
@@ -1910,6 +1911,7 @@
         self.title = title;
         self.image = image;
         self.imagePosition = imagePosition;
+        self.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
